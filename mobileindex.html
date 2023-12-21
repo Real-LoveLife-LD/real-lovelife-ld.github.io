@@ -3,38 +3,27 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Creative Habitat</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/mobilestyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <script src="https://kit.fontawesome.com/c3d85fd062.js" crossorigin="anonymous"></script>
-
-	<script>
-			// Check if the user is on a mobile device
-			if (/Mobi|Android/i.test(navigator.userAgent)) {
-					// If on mobile, redirect to the mobile version
-					window.location.href = "mobileindex.html";
-			}
-	</script>
-    	<link rel="icon" href="img/logofavicon.ico" type="image/x-icon">
-        <link rel="shortcut icon" href="img/logofavicon.ico" type="image/x-icon">
+	<script src="https://kit.fontawesome.com/c3d85fd062.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="img/logofavicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/logofavicon.ico" type="image/x-icon">
 </head>
 
 <body>
 
     <!-- Hero Section -->
     <div class="hero">
-        <nav>
-            <img src="img/logo.png" alt="Creative Habitat Logo Failed to load" class="logoimage" width="250" height="150">
-            <button onclick="copyEmail()">Email us - chcllc2010@gmail.com <br><br> (Click to copy Email)</button>
-        </nav>
         <div class="content">
+					
             <h1>Creative <span>Habitat</span></h1>
             <h3>Villa Construction Company in the U.A.E</h3>
             <nav>
-                <a href="https://wa.me/971565365550?text=Dear%20Savij%20at%20Creative%20Habitat,%20I%27m%20a%20new%20client%20interested%20in%20building%20a%20villa%20in%20the%20UAE.%20I%27m%20reaching%20out%20to%20learn%20more%20about%20your%20services%20and%20portfolio." class="btn">Message or Call us at +971 56 536 5550 <br><br>(Click to open Whatsapp)</a>
+                <a href="https://wa.me/971565365550?text=Dear%20Savij%20at%20Creative%20Habitat,%20I%27m%20a%20new%20client%20interested%20in%20building%20a%20villa%20in%20the%20UAE.%20I%27m%20reaching%20out%20to%20learn%20more%20about%20your%20services%20and%20portfolio."
+                    class="btn">Message or Call us at +971 56 536 5550 <br>(Click to open Whatsapp)</a>
             </nav>
         </div>
     </div>
@@ -42,11 +31,11 @@
     <!-- About Section -->
     <section class="about">
         <div class="main">
-            <img src="img/view.jpg" alt="subside image failed to load">
             <div class="about-text">
                 <h2>About Us</h2>
                 <h5>At <span>Creative Habitat,</span></h5>
                 <p>We redefine the essence of villa living, seamlessly blending opulence with eco-conscious design to craft luxurious residences that stand as timeless works of art. Based in the heart of the UAE, our mission is to deliver stunning, gorgeous villas that not only exceed expectations but also contribute to a sustainable future.</p>
+							
                 <button onclick="copyPhoneNumber()">Copy Phone Number</button>
             </div>
         </div>
@@ -58,21 +47,21 @@
             <h2>Know more</h2>
         </div>
         <div class="box">
-            <div class="card">
+            <div class="card" style="margin: 0 auto;">
                 <i class="fa-solid fa-book"></i>
                 <h5>Our Philosophy</h5>
                 <div class="pra">
-                    <p><br>We believe in creating more than just homes; we craft lifestyles that inspire and elevate. Our commitment to excellence is evident in every detail, from the architectural marvels that grace the skyline to the eco-friendly practices that underscore our construction process. At Creative Habitat, we understand that a home is not just a structure; it is a sanctuary, a statement, and an investment in the future.</p>
+                    <p>We believe in creating more than just homes; we craft lifestyles that inspire and elevate. Our commitment to excellence is evident in every detail, from the architectural marvels that grace the skyline to the eco-friendly practices that underscore our construction process. At Creative Habitat, we understand that a home is not just a structure; it is a sanctuary, a statement, and an investment in the future.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" style="margin: 0 auto;">
                 <i class="fa-solid fa-house"></i>
                 <h5>Luxury Meets Affordability</h5>
                 <div class="pra">
                     <p>We take pride in offering a unique blend of luxury and affordability. Our team of seasoned professionals collaborates to bring your dream villa to life, ensuring that each project is a testament to the epitome of elegance without compromising on cost-effectiveness. Creative Habitat stands as a beacon of value, delivering the finest in villa construction at a price that aligns with your vision.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card" style="margin: 0 auto;">
                 <i class="fa-solid fa-leaf"></i>
                 <h5>Stunning Eco-Friendly Designs</h5>
                 <div class="pra">
@@ -85,7 +74,7 @@
     <!-- Contact Me Section -->
     <div class="contact-me">
         <p>Let us make your Dream Villa.</p>
-        <button onclick="copyPhoneNumber()">Copy Phone Number</button>
+			<button onclick="copyEmail()">Email us - chcllc2010@gmail.com <br><br> (Click to copy Email)</button>
     </div>
 
     <!-- Footer Section -->
@@ -94,7 +83,8 @@
         <p>Find us here <span><i class="fa-solid fa-heart"></i></span></p>
         <div class="social">
             <a href="https://www.instagram.com/creativehabitat_dubai/"><i class="fab fa-instagram"></i></a>
-            <a href="https://wa.me/971565365550?text=Dear%20Savij%20at%20Creative%20Habitat,%20I%27m%20a%20new%20client%20interested%20in%20building%20a%20villa%20in%20the%20UAE.%20I%27m%20reaching%20out%20to%20learn%20more%20about%20your%20services%20and%20portfolio."><i class="fa-brands fa-whatsapp"></i> </a>
+            <a href="https://wa.me/971565365550?text=Dear%20Savij%20at%20Creative%20Habitat,%20I%27m%20a%20new%20client%20interested%20in%20building%20a%20villa%20in%20the%20UAE.%20I%27m%20reaching%20out%20to%20learn%20more%20about%20your%20services%20and%20portfolio."><i
+                    class="fa-brands fa-whatsapp"></i> </a>
         </div>
         <p class="end">Copyright &copy; 2024 Creative Habitat</p>
     </footer>
